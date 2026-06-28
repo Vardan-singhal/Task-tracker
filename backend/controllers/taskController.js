@@ -1,4 +1,4 @@
-const Task = require('../models/Task');
+const Task = require('../models/task.js');
 const { validationResult } = require('express-validator');
 
 // Get all tasks with filtering, searching, and sorting
