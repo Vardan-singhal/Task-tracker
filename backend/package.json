@@ -7,12 +7,15 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "keywords": [
     "tasks",
     "tracker",
     "rest-api"
   ],
-  "author": "Your Name",
+  "author": "Vardan Singhal",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
